@@ -19,7 +19,7 @@ mkdir ~/mclauncher
 cd ~/mclauncher
 wget ${jre86}
 wget ${launcher_jar}
-curl https://dl2.macupdate.com/images/icons256/52171.png --output icon.png
+curl -k https://dl2.macupdate.com/images/icons256/52171.png --output icon.png
 tar -xvf jre-8u181-linux-i586.tar.gz
 chmod +x Minecraft.jar
 echo "#!/bin/sh" >> ~/mclauncher/launcher.sh
