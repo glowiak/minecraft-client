@@ -61,4 +61,4 @@ OPENBSD WARNING: You can run only old versions of Minecraft, because LWJGL3 is n
 Latest MC version working on NetBSD: 1.2.5 (lwjgl 2.9.0)
 Latest MC version working on FreeBSD: latest
 Latest MC version working on Linux: latest
-Latest MC version working on OpenBSD: I will test it
+Latest MC version working on OpenBSD: 1.2.5 (lwjgl 2.9.3)
