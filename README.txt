@@ -6,11 +6,6 @@ Dependiences:
 -curl
 -sh (this shell is installed on every Linux distro)
 
-Dependienses installing by installer on OpenBSD:
--jdk-1.8.0
--lwjgl
--wget
--curl
 
                                                       How to install (Slackware hmm...):
                                                       
@@ -36,8 +31,13 @@ $ echo "cd ${HOME}/mclauncher" >> launcher.sh
 $ echo "/usr/local/jdk-1.8.0/bin/java -jar ${HOME}/mclauncher/Minecraft.jar" >> launcher.sh
 //To start Launcher type: sh ${HOME}/mclauncher/launcher.sh
 
-NetBSD (all architectures):
-NetBSD version is cooming...
+Instructions for NetBSD:
+$ mkdir ${HOME}/mclauncher && cd ${HOME}/mclauncher
+$ su root -c "pkgin install openjdk8 curl"
+$ curl -k http://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.jar --output Minecraft.jar
+$ chmod +x Minecraft.jar
+$ echo "/usr/pkg/java/openjdk8/bin/java -jar ${HOME}/mclauncher/Minecraft.jar" >> launcher.sh
+//To start Launcher type: sh ${HOME}/mclauncher/launcher.sh
 
 FreeBSD (all architectures):
 $ su root -c "pkg install minecraft-client"
