@@ -26,8 +26,15 @@ Download http://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.jar (Java
 Windows:
 Download http://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.jar (You must install Java manually)
 
-OpenBSD (all architectures):
-$ git clone http://github.com/glowiak/minecraft-client.git && cd minecraft-client && sh minecraft-client-openbsd.sh
+Instructions for OpenBSD (installer is broken by ksh):
+$ mkdir ${HOME}/mclauncher && cd ${HOME}/mclauncher
+$ su root -c "pkg_add lwjgl curl"
+$ curl -k http://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.jar --output Minecraft.jar
+$ chmod +x Minecraft.jar
+$ echo "#!/bin/sh" >> launcher.sh
+$ echo "cd ${HOME}/mclauncher" >> launcher.sh
+$ echo "/usr/local/jdk-1.8.0/bin/java -jar ${HOME}/mclauncher/Minecraft.jar" >> launcher.sh
+//To start Launcher type: sh ${HOME}/mclauncher/launcher.sh
 
 NetBSD (all architectures):
 NetBSD version is cooming...
