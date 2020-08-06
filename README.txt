@@ -48,12 +48,17 @@ Linux:
 $ su root -c "<packagemanager> git wget curl"
 
 OpenBSD:
-$ su root -c "pkg_add git wget curl"
+$ su root -c "pkg_add git curl"
 
 NetBSD:
-cooming...
+$ su root -c "pkgin install git curl"
 
 FreeBSD:
 Dependiences are installed by installer.
 
 OPENBSD WARNING: You can run only old versions of Minecraft, because LWJGL3 is not supproted under OpenBSD
+
+Latest MC version working on NetBSD: 1.2.5 (lwjgl 2.9.0)
+Latest MC version working on FreeBSD: latest
+Latest MC version working on Linux: latest
+Latest MC version working on OpenBSD: I will test it
