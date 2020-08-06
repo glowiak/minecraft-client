@@ -6,6 +6,12 @@ Dependiences:
 -curl
 -sh (this shell is installed on every Linux distro)
 
+Dependienses installing by installer on OpenBSD:
+-jdk-1.8.0
+-lwjgl
+-wget
+-curl
+
                                                       How to install (Slackware hmm...):
                                                       
 Linux x86_64:
