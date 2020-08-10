@@ -3,6 +3,8 @@
 jre86="http://mirr2.crystal-launcher.pl/jre/jre-8u181-linux-i586.tar.gz"
 launcher_jar="http://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.jar"
 fetcher="wget"
+sudo xbps-install -S curl
+sudo xbps-install -S wget
 sudo zypper in curl
 sudo apt-get install curl
 sudo pacman -S curl
