@@ -5,6 +5,7 @@ Dependiences:
 -wget
 -curl
 -sh (this shell is installed on every Linux distro)
+-sudo (linux only)
 
 
                                                       How to install (Slackware hmm...):
