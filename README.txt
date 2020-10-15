@@ -22,6 +22,8 @@ Download http://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.jar (Java
 Windows:
 Download http://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.jar (You must install Java manually)
 
+Try new offline installer for Linux:
+
 Instructions for OpenBSD (installer is broken by ksh):
 $ mkdir ${HOME}/mclauncher && cd ${HOME}/mclauncher
 $ su root -c "pkg_add lwjgl curl"
