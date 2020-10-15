@@ -22,7 +22,14 @@ Download http://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.jar (Java
 Windows:
 Download http://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.jar (You must install Java manually)
 
-Try new offline installer for Linux:
+Try new offline installer for Linux: https://github.com/glowiak/minecraft-client/releases/download/offline-installer/minecraft-client.cpio.zst
+To install with offline installer extract it and run installer for your architecture.
+
+Offline installer dependiences:
+-zstd
+-cpio
+-tar
+-gzip
 
 Instructions for OpenBSD (installer is broken by ksh):
 $ mkdir ${HOME}/mclauncher && cd ${HOME}/mclauncher
