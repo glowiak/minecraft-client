@@ -31,6 +31,12 @@ Offline installer dependiences:
 -tar
 -gzip
 
+Try new PKGBUILD for ArchLinux:
+$ cd /tmp
+$ wget --no-check-certificate http://github.com/glowiak/minecraft-client/raw/master/PKGBUILD
+$ makepkg
+That's all! Minecraft installed in only 3 commands! (You can delete minecraft-client-1.3online.pkg.tar.zst, because it's generated automatily and useless)
+
 Instructions for OpenBSD (installer is broken by ksh):
 $ mkdir ${HOME}/mclauncher && cd ${HOME}/mclauncher
 $ su root -c "pkg_add lwjgl curl"
