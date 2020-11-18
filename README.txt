@@ -83,5 +83,9 @@ Latest MC version working on OpenBSD: 1.2.5 (lwjgl 2.9.3)
 UPDATE!!!!!!!!!!!!!!!!!!!!! minecraft-client package uses old java launcher and don't support 1.13+ without patches.
 To play 1.13+ install new minecraft-launcher_user_build package: https://github.com/glowiak/minecraft-client/releases/download/offline-installer/minecraft-launcher_user_build-0.1-linux.tar.gz
 
+New Minecraft-Client dependiences:
+-Java 8
+-libcurl
+
 To install it type as root: # cd / && tar xzvf <path to minecraft-launcher_user_build package file>
 NOTE!: New Minecraft-Launcher_user_build don't work on CEntOS, so it shouldn't work on redhat.
